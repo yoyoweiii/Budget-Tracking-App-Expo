@@ -1,6 +1,4 @@
-# Budget Buddy App
-
-![Budget Buddy App Thumbnail](https://i.ytimg.com/vi/dl74XgJYK1A/maxresdefault.jpg)
+# Budget Tracking App
 
 ## Introduction
 
@@ -31,8 +29,8 @@ Watch the app in action on my YouTube channel: [Budget Buddy App Demo](https://y
 To get started with this project, clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/betomoedano/Budget-Buddy-App.git
-cd Budget-Buddy-App
+git clone https://github.com/yoyoweiii/Budget-Tracking-App-Expo.git
+cd Budget-Tracking-App
 ```
 
 💡 Find more resources at [codewithbeto.dev](https://codewithbeto.dev)
