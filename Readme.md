@@ -29,7 +29,7 @@ Watch the app in action on my YouTube channel: [Budget Buddy App Demo](https://y
 To get started with this project, clone the repository and install the required dependencies.
 
 
-Step 1: Install Node.js (with npm)
+## Step 1: Install Node.js (with npm)
 
 Download Node.js: Visit the official Node.js website (Node.js download page) and download the LTS (Long Term Support) version for your operating system. The LTS version is more stable and is recommended for most users.
 On Windows: Download the .msi installer and run it. Follow the setup wizard which will also install npm.
@@ -40,32 +40,34 @@ Verify the installation: After installation, open a new terminal (Command Prompt
 node -v    # shows Node.js version
 npm -v     # shows npm version
 ```
-Step 2: Install Expo CLI (Command Line Interface)
+## Step 2: Install Expo CLI (Command Line Interface)
 ```bash
 npm install --global expo-cli
 
 ```
-Step 3: Clone the Project Repository
+## Step 3: Clone the Project Repository
 ```bash
 git clone https://github.com/yoyoweiii/Budget-Tracking-App-Expo.git
 cd Budget-Tracking-App-Expo
 ```
-Step 4: Install Project Dependencies
+## Step 4: Install Project Dependencies
 ```bash
 npm install
 ```
-Step 5: Start the Expo Development Server
+## Step 5: Start the Expo Development Server
 ```bash
 expo start
 ```
-Step 6: Install the Expo Go app on your Android device
+## Step 6: Install the Expo Go app on your Android device
+
 To run the app on your Android phone, you will use Expo Go – an app provided by Expo that can run your project’s JavaScript bundle on the phone without needing a full native build.
 Download Expo Go: On your Android phone, open the Google Play Store and search for “Expo Go” (by Expo Project/650 Industries). Install the Expo Go app on your device like you would install any other app.
 Launch Expo Go: Once installed, open the Expo Go app on your phone. The app will likely show a home screen with options to scan a QR code, along with any projects you might have recently opened (if any).
 Sign in (optional): Expo Go does not strictly require an account to run apps in development, especially if your computer and device are on the same network. However, it might prompt you to sign in or create an Expo account (Expo accounts are free) for certain features or if you choose to use the tunnel connection. You can go ahead and create an account or sign in if you want, but for simply scanning the QR code on a local network, you should be able to continue without signing in. (If you do sign in on the Expo Go app, it must match the account you use with expo login in the CLI, but again, this isn’t necessary for LAN scanning.)
 Permissions: The first time you use Expo Go to scan a QR code, it will ask for camera access (so it can use the camera to scan the code). Grant this permission. On newer Android versions, you might also need to allow Expo Go to access your local network if prompted.
 
-Step 7: Scan the QR code and run the app on your Android phone
+## Step 7: Scan the QR code and run the app on your Android phone
+
 Now comes the exciting part – launching the app on your phone:
 Connect to the same network: Make sure your Android phone and your development computer are on the same Wi-Fi network. This is important because Expo’s default connection mode (LAN) requires both devices to communicate over the local network
 docs.expo.dev
